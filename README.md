@@ -19,6 +19,7 @@ MailPilot is a Chrome extension that helps you write better emails faster. It li
 -   ✨ **AI-Powered Rewriting** - Rewrites any Gmail draft or opened email directly in a built-in side panel
 -   🎯 **Multiple Tones** - Choose from options: Formal, Casual, Professional, or Friendly tones
 -   🌍 **Enhanced Translation Support** - Translate emails from and into 30+ languages with auto-detection or manual language selection
+-   🌐 **Multi-language Interface** - Interface available in 11 languages: English, Spanish, French, German, Chinese, Japanese, Portuguese, Italian, Russian, Arabic, and Hindi
 -   🛡️ **Security Protection** - Built-in detection of suspicious content patterns that may attempt to manipulate AI behavior
 -   ⚡ **Fast & Easy** - One-click rewrite and apply functionality
 -   📧 **Gmail Integration** - Seamlessly integrated into Gmail's (and SOON a lot more email websites') compose window
@@ -45,6 +46,23 @@ The enhanced translation feature now supports:
 - **Auto-detect source language** - Let AI automatically detect the language of your email
 - **Manual language selection** - Choose specific source and target languages for precise control
 - **Bidirectional translation** - Write in any language and translate to any other language
+
+### Interface Language
+
+MailPilot interface is now available in 11 languages:
+- **English** 🇬🇧
+- **Spanish (Español)** 🇪🇸
+- **French (Français)** 🇫🇷
+- **German (Deutsch)** 🇩🇪
+- **Chinese (中文)** 🇨🇳
+- **Japanese (日本語)** 🇯🇵
+- **Portuguese (Português)** 🇵🇹
+- **Italian (Italiano)** 🇮🇹
+- **Russian (Русский)** 🇷🇺
+- **Arabic (العربية)** 🇸🇦
+- **Hindi (हिन्दी)** 🇮🇳
+
+Simply select your preferred language from the dropdown in the top-right corner of the side panel. Your preference will be saved automatically.
 
 ### Security Features
 

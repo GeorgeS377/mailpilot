@@ -7,12 +7,31 @@
 - **Expanded Language Support**: 30+ languages now supported
 - **Bidirectional Translation**: Full support for translating between any language pair
 
-### 2. Jailbreak Detection
+### 2. Interface Language Selector
+- **11 Languages Available**: English, Spanish, French, German, Chinese, Japanese, Portuguese, Italian, Russian, Arabic, Hindi
+- **Persistent Preference**: Selected language is saved and persists across sessions
+- **Complete Localization**: All UI text, buttons, labels, errors, and warnings are translated
+
+### 3. Jailbreak Detection
 - **Pattern Detection**: Detects suspicious patterns that attempt to manipulate AI behavior
 - **Warning System**: Shows warnings to users when suspicious content is detected
 - **Protection Patterns**: Detects attempts to ignore instructions, change AI role, or manipulate output
 
 ## Manual Testing Steps
+
+### Test 0: Interface Language Selection
+1. Open MailPilot side panel
+2. Click on the language dropdown in the top-right corner
+3. Select different languages (e.g., Spanish, French, Chinese)
+4. Verify all UI text changes to the selected language:
+   - "Select your tone" header
+   - Tone options (Formal, Casual, Professional, Friendly)
+   - "Translate" checkbox label
+   - "Translate from" and "Translate to" labels
+   - "Rewrite" button text
+   - Error and warning messages
+5. Close and reopen the side panel
+6. Verify the language preference persists
 
 ### Test 1: Basic Translation with Auto-Detect
 1. Open Gmail and compose a new email
