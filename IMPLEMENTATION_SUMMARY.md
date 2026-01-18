@@ -21,7 +21,7 @@ This PR successfully implements all requirements from the GitHub issue:
 
 **Implementation**:
 - Created comprehensive translations system (`src/translations.ts`)
-- Supported 11 languages with complete translations:
+- Supported 16 languages with complete translations:
   1. English 🇬🇧
   2. Spanish (Español) 🇪🇸
   3. French (Français) 🇫🇷
@@ -33,6 +33,11 @@ This PR successfully implements all requirements from the GitHub issue:
   9. Russian (Русский) 🇷🇺
   10. Arabic (العربية) 🇸🇦
   11. Hindi (हिन्दी) 🇮🇳
+  12. Tamil (தமிழ்) 🇮🇳
+  13. Telugu (తెలుగు) 🇮🇳
+  14. Malayalam (മലയാളം) 🇮🇳
+  15. Kannada (ಕನ್ನಡ) 🇮🇳
+  16. Bengali (বাংলা) 🇧🇩
 - Translated all UI elements: buttons, labels, headers, errors, warnings, alt text
 - Language preference persists across sessions using Chrome storage
 - Easy-to-use dropdown selector in UI header

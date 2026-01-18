@@ -527,6 +527,11 @@ export function SidePanelApp() {
             <option value="ru">Русский</option>
             <option value="ar">العربية</option>
             <option value="hi">हिन्दी</option>
+            <option value="ta">தமிழ்</option>
+            <option value="te">తెలుగు</option>
+            <option value="ml">മലയാളം</option>
+            <option value="kn">ಕನ್ನಡ</option>
+            <option value="bn">বাংলা</option>
           </select>
           
           <button className="" onClick={toggleLightMode}>

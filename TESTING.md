@@ -8,7 +8,7 @@
 - **Bidirectional Translation**: Full support for translating between any language pair
 
 ### 2. Interface Language Selector
-- **11 Languages Available**: English, Spanish, French, German, Chinese, Japanese, Portuguese, Italian, Russian, Arabic, Hindi
+- **16 Languages Available**: English, Spanish, French, German, Chinese, Japanese, Portuguese, Italian, Russian, Arabic, Hindi, Tamil, Telugu, Malayalam, Kannada, Bengali
 - **Persistent Preference**: Selected language is saved and persists across sessions
 - **Complete Localization**: All UI text, buttons, labels, errors, and warnings are translated
 
@@ -22,7 +22,7 @@
 ### Test 0: Interface Language Selection
 1. Open MailPilot side panel
 2. Click on the language dropdown in the top-right corner
-3. Select different languages (e.g., Spanish, French, Chinese)
+3. Select different languages (e.g., Spanish, French, Chinese, Tamil, Telugu, Malayalam, Kannada, Bengali)
 4. Verify all UI text changes to the selected language:
    - "Select your tone" header
    - Tone options (Formal, Casual, Professional, Friendly)
