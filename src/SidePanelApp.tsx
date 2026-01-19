@@ -235,7 +235,7 @@ export function SidePanelApp() {
         setIsCooldown(true);
       }
       if (message.type === 'REWRITE_ERROR') {
-        console.error('[MailPilot sidepanel] Rewrite error:', message.error);
+        // console.error('[MailPilot sidepanel] Rewrite error:', message.error);
         setError(message.error as string);
         setIsLoading(false);
         // Don't start cooldown on error
@@ -262,7 +262,7 @@ export function SidePanelApp() {
       }
       
       if (changes.mailpilotRewriteError?.newValue) {
-        console.error('[MailPilot sidepanel] Got error from storage:', changes.mailpilotRewriteError.newValue);
+        // console.error('[MailPilot sidepanel] Got error from storage:', changes.mailpilotRewriteError.newValue);
         setError(changes.mailpilotRewriteError.newValue as string);
         setIsLoading(false);
         setIsCooldown(false);
@@ -421,7 +421,7 @@ export function SidePanelApp() {
         
         if (suspiciousWarning) {
           setWarning(`${t.warnings.suspiciousPrefix}${suspiciousWarning}${t.warnings.suspiciousSuffix}`);
-          console.warn('Suspicious pattern detected:', suspiciousWarning);
+          // console.warn('Suspicious pattern detected:', suspiciousWarning);
         }
 
         console.log('Rewriting with tone:', tone);
