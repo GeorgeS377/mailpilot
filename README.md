@@ -28,7 +28,7 @@ MailPilot is a Chrome extension that helps you write better emails faster. It li
 
 Download MailPilot from the Chrome Web Store:
 
-**[Download MailPilot](https://bit.ly/tobiasmailpilot)**
+**[Download MailPilot](https://chromewebstore.google.com/detail/mailpilot-ai-email-writer/dggnkeoemchdfghgmhfpbecbmholidnf)**
 
 ## How It Works
 
